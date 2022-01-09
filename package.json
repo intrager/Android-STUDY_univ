@@ -17,6 +17,15 @@
   },
   "homepage": "https://github.com/intrager/Roadbook-Nodejs-coding#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "axios": "^0.24.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "uuid-apikey": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
