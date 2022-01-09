@@ -1,0 +1,22 @@
+{
+  "name": "roadbook-nodejs-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intrager/Roadbook-Nodejs-coding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intrager/Roadbook-Nodejs-coding/issues"
+  },
+  "homepage": "https://github.com/intrager/Roadbook-Nodejs-coding#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
