@@ -4,6 +4,12 @@
 
 ---
 
+## 실습 환경 ##
+
+
+
+Android Studio Arctic Fox | 2020.3.1 Patch 2
+
 gradle 버전 : 7.0.2
 API 버전 - 23.0 : Android 6.0 (Marshmallow)
 
