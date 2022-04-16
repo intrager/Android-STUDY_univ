@@ -2,6 +2,11 @@
 
 학교에서 안드로이드 프로그래밍 과목을 수강하면서 복습한 것을 기록하기 위한 저장소입니다.
 
+---
+
 gradle 버전 : 7.0.2
 API 버전 - 23.0 : Android 6.0 (Marshmallow)
-실습용 Virtual Device : Nexus 6 API 29(Release Name - Q), Nexus S API 29(Release Name - Q)
+
+실습용 Virtual Device
+
+-> Nexus 6 API 29(Release Name - Q), Nexus S API 29(Release Name - Q)
