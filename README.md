@@ -4,3 +4,4 @@
 
 gradle 버전 : 7.0.2
 API 버전 - 23.0 : Android 6.0 (Marshmallow)
+실습용 Virtual Device : Nexus 6 API 29(Release Name - Q), Nexus S API 29(Release Name - Q)
