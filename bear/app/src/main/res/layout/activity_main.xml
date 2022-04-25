@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edge2"
+        android:text="2022  학년도 4월 중간고사 컴퓨터소프트웨어과(3B)"
+        android:textAlignment="center" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edge">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="간이 계산기"
+            android:textSize="10pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="입력값(1)"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                />
+
+            <EditText
+                android:id="@+id/inputNum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:background="@drawable/edge"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="입력값(2)"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                />
+
+            <EditText
+                android:id="@+id/inputNum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+
+                android:background="@drawable/edge" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/plusBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#42BA42"
+            android:onClick="funcPlus"
+            android:text="더하기"
+            app:strokeColor="#FF3F51B5"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/plusMinus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#42BA42"
+            android:onClick="funcMinus"
+            android:text="빼기"
+            android:layout_margin="10dp"
+            app:strokeColor="#FF3F51B5"
+            app:strokeWidth="2dp"
+            />
+
+        <Button
+            android:id="@+id/plusMul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#42BA42"
+            android:onClick="funcMul"
+            android:text="곱하기"
+            android:layout_margin="10dp"
+            app:strokeColor="#FF3F51B5"
+            app:strokeWidth="2dp"
+            />
+
+        <Button
+            android:id="@+id/plusDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#42BA42"
+            android:onClick="funcDiv"
+            android:text="나누기"
+            android:layout_margin="10dp"
+            app:strokeColor="#FF3F51B5"
+            app:strokeWidth="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="계산 결과값"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                />
+
+            <EditText
+                android:id="@+id/resultNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/edge"
+                />
+        </LinearLayout>
+    </TableLayout>
+
+</LinearLayout>
+
